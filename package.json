@@ -1,0 +1,24 @@
+{
+  "name": "three_level",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "liunwcj",
+  "license": "MIT",
+  "devDependencies": {
+    "amazeui-doc-util": "latest",
+    "amazeui-gulp-tasks": "^0.0.2",
+    "gulp": "^3.9.0",
+    "run-sequence": "^1.0.2"
+  },
+  "dependencies": {
+    "amazeui": "^2.4.0",
+    "jquery": "^2.1.4"
+  },
+  "browserify-shim": {
+    "jquery": "global:jQuery"
+  }
+}
