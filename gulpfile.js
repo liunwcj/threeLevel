@@ -46,6 +46,14 @@ var config = {
       return 'dist/docs';
     }
   },
+  browserSync: {
+    notify: false,
+    server: 'dist',
+    logPrefix: 'AMP'
+  },
+  // watch files and reload browserSync
+  bsWatches: 'dist/**/*',
+  clean:'dist'
 };
 
 // init tasks
@@ -63,9 +71,11 @@ gulp.task('copy:watch', function() {
 gulp.task('copy', ['copy:js', 'copy:watch']);
 
 gulp.task('build', function(cb) {
-  return runSequence('clean', ['copy', 'browserify', 'less', 'markdown'], cb);
+  return runSequence('clean', ['copy', 'browserify', 'less', 'markdown'], function(){
+    gulp.run('server');
+  });
 });
 
+// bug
 gulp.task('dev', ['build', 'server']);
 
-gulp.task('test',['less','markdown','browserify','copy']);
