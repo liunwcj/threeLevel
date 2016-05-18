@@ -1,34 +1,34 @@
 # threeLevel
 ---
 
-Amaze UI threeLevel ²å¼ş¡£
+Amaze UI threeLevel æ’ä»¶ã€‚
 
-- [Ê¹ÓÃÊ¾Àı](http://localhost:3000/docs/demo.html)
-- [API ÎÄµµ](http://localhost:3000/docs/api.html)
+- [ä½¿ç”¨ç¤ºä¾‹](http://localhost:3000/docs/demo.html)
+- [API æ–‡æ¡£](http://localhost:3000/docs/api.html)
 
-**Ê¹ÓÃËµÃ÷£º**
+**ä½¿ç”¨è¯´æ˜ï¼š**
 
-1. »ñÈ¡ Amaze UI threeLevel
+1. è·å– Amaze UI threeLevel
 
-- [Ö±½ÓÏÂÔØ](http://git.oschina.net/liunwcj/threeLevel/repository/archive/master)
+- [ç›´æ¥ä¸‹è½½](https://github.com/liunwcj/threeLevel/archive/master.zip)
 
-2. ÔÚ Amaze UI ÑùÊ½Ö®ºóÒıÈë threeLevel ÑùÊ½£¨`dist` Ä¿Â¼ÏÂµÄ CSS£©£º
+2. åœ¨ Amaze UI æ ·å¼ä¹‹åå¼•å…¥ threeLevel æ ·å¼ï¼ˆ`dist` ç›®å½•ä¸‹çš„ CSSï¼‰ï¼š
 
-Amaze UI threeLevel ÒÀÀµ Amaze UI ÑùÊ½¡£
+Amaze UI threeLevel ä¾èµ– Amaze UI æ ·å¼ã€‚
 
 ```html
 <link rel="stylesheet" href="path/to/amazeui.min.css"/>
 <link rel="stylesheet" href="path/to/amazeui.threelevel.min.css"/>
 ```
 
-3. ÔÚ jQuery Ö®ºóÒıÈë threeLevel ²å¼ş£¨`dist` Ä¿Â¼ÏÂµÄ JS£©£º
+3. åœ¨ jQuery ä¹‹åå¼•å…¥ threeLevel æ’ä»¶ï¼ˆ`dist` ç›®å½•ä¸‹çš„ JSï¼‰ï¼š
 
 ```html
 <script src="path/to/jquery.min.js"></script>
 <script src="path/to/amazeui.threelevel.min.js"></script>
 ```
 
-4. ³õÊ¼»¯ threeLevel:
+4. åˆå§‹åŒ– threeLevel:
 
 ```js
     $(function() {
@@ -39,10 +39,10 @@ Amaze UI threeLevel ÒÀÀµ Amaze UI ÑùÊ½¡£
 <br />  
 ***
 
-** ²Î¿¼: **
+** å‚è€ƒ: **
 
 > https://github.com/amazeui/tree  
-> http://www.yunshipei.com/static/AMUI/component/index.html  
+> !http://www.yunshipei.com/static/AMUI/component/index.html  
 > http://www.browsersync.cn/  
 > http://www.bluesdream.com/blog/markdown-cheatsheet-syntax-manual.html
 ***

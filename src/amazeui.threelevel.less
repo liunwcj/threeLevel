@@ -1,12 +1,68 @@
-html{
-  background-color: #272822;
+.am-zx_actionsheet {
+  position: relative;
+  padding: 0;
+  margin: 0;
+
+  ul,p {
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  /* a { */
+    /* &:after, */
+    /* &:before { */
+      /* .am-icon-font; */
+    /* } */
+  /* } */
+  .hook-am-zx_actionsheet;
 }
-body{
-  border: 1px solid #000;
+.hook-am-zx_actionsheet() {}
+
+.am-zx_actionsheet-default {
+  .zx {
+    &-threelevel {
+      background-color: #F5F5F5;
+    }
+    &-title {
+      border-bottom: 1px solid #DBDBDB;
+    }
+    &-list {
+      &-box {
+        overflow-x:auto;
+        overflow-y:hidden;
+      }
+      li {
+        height:100%;
+        margin-top:-1px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        &:nth-child(odd) {
+          background-color: #FFF;
+        }
+        p {
+          border-top: 1px solid #EEE;
+          margin: 0 5px;
+          text-align: left;
+          a {
+            padding: 10px;
+            display: block;
+            font-size: 1.4rem;
+            color: #444;
+            /* white-space:nowrap; */
+            /* overflow:hidden; */
+          }
+        }
+        /* &.J_level_2,&.J_level_3{ */
+          /* display:none; */
+        /* } */
+      }
+    }
+  }
+  .hook-am-zx_actionsheet-default;
 }
-.test{
-  font-size: 14px;
-}
-footer{
-  text-align: center;
-}
+
+.hook-am-zx_actionsheet-default() {}

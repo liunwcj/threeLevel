@@ -29,7 +29,8 @@ var config = {
     data: {
       pluginTitle: 'Amaze UI threeLevel',
       pluginDesc: 'jQuery threeLevel 插件 (底部三级分类)',
-      buttons: 'liunwcj/threeLevel' // GitHub 项目地址（去除 https://github.com/ 部分） 
+      buttons: 'liunwcj/threeLevel', // GitHub 项目地址（去除 https://github.com/ 部分） 
+      head: '<link rel="stylesheet" href="../amazeui.threelevel.css"/>'
     },
     // gulp-rename 设置 
     rename: function(file) {
