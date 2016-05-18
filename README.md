@@ -42,7 +42,7 @@ Amaze UI threeLevel ÒÀÀµ Amaze UI ÑùÊ½¡£
 ** ²Î¿¼: **
 
 > https://github.com/amazeui/tree  
-> !http://www.yunshipei.com/static/AMUI/component/index.html  
+> http://www.yunshipei.com/static/AMUI/component/index.html  
 > http://www.browsersync.cn/  
 > http://www.bluesdream.com/blog/markdown-cheatsheet-syntax-manual.html
 ***

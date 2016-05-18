@@ -7,15 +7,15 @@ var tasks = require('amazeui-gulp-tasks');
 
 var config = {
   less: {
-    src: './less/*.less', // 源文件 
+    src: './src/*.less', // 源文件 
     autoPrefixer: {}, // autoprefixer 设置， 
     dist: './dist', // 部署目录 
-    watches: './less/**/*.less', // watch 的文件，如果不设置则 watch `src` 里的文件 
+    watches: './src/**/*.less', // watch 的文件，如果不设置则 watch `src` 里的文件 
     banner: '' // 是否添加 banner，布尔值或者 {template: '', data: {}} 
   },
   browserify: {
     bundleOptions: {
-      entries: './lib/amazeui.threelevel.js',
+      entries: './src/amazeui.threelevel.js',
       cache: {},
       packageCache: {}
     },
@@ -28,8 +28,8 @@ var config = {
     src: ['README.md','docs/*.md'],
     data: {
       pluginTitle: 'Amaze UI threeLevel',
-      pluginDesc: 'jQuery threeLevel 插件 (底部三级分类)'
-      // buttons: 'amazeui/gulp-tasks' // GitHub 项目地址（去除 https://github.com/ 部分） 
+      pluginDesc: 'jQuery threeLevel 插件 (底部三级分类)',
+      buttons: 'liunwcj/threeLevel' // GitHub 项目地址（去除 https://github.com/ 部分） 
     },
     // gulp-rename 设置 
     rename: function(file) {
