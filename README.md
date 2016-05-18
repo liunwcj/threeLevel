@@ -1,34 +1,34 @@
 # threeLevel
 ---
 
-Amaze UI threeLevel æ’ä»¶ã€‚
+Amaze UI threeLevel ²å¼ş¡£
 
-- [ä½¿ç”¨ç¤ºä¾‹](http://localhost:3000/docs/demo.html)
-- [API æ–‡æ¡£](http://localhost:3000/docs/api.html)
+- [Ê¹ÓÃÊ¾Àı](http://localhost:3000/docs/demo.html)
+- [API ÎÄµµ](http://localhost:3000/docs/api.html)
 
-**ä½¿ç”¨è¯´æ˜ï¼š**
+**Ê¹ÓÃËµÃ÷£º**
 
-1. è·å– Amaze UI threeLevel
+1. »ñÈ¡ Amaze UI threeLevel
 
-- [ç›´æ¥ä¸‹è½½](http://git.oschina.net/liunwcj/threeLevel/repository/archive/master)
+- [Ö±½ÓÏÂÔØ](http://git.oschina.net/liunwcj/threeLevel/repository/archive/master)
 
-2. åœ¨ Amaze UI æ ·å¼ä¹‹åå¼•å…¥ threeLevel æ ·å¼ï¼ˆ`dist` ç›®å½•ä¸‹çš„ CSSï¼‰ï¼š
+2. ÔÚ Amaze UI ÑùÊ½Ö®ºóÒıÈë threeLevel ÑùÊ½£¨`dist` Ä¿Â¼ÏÂµÄ CSS£©£º
 
-Amaze UI threeLevel ä¾èµ– Amaze UI æ ·å¼ã€‚
+Amaze UI threeLevel ÒÀÀµ Amaze UI ÑùÊ½¡£
 
 ```html
 <link rel="stylesheet" href="path/to/amazeui.min.css"/>
 <link rel="stylesheet" href="path/to/amazeui.threelevel.min.css"/>
 ```
 
-3. åœ¨ jQuery ä¹‹åå¼•å…¥ threeLevel æ’ä»¶ï¼ˆ`dist` ç›®å½•ä¸‹çš„ JSï¼‰ï¼š
+3. ÔÚ jQuery Ö®ºóÒıÈë threeLevel ²å¼ş£¨`dist` Ä¿Â¼ÏÂµÄ JS£©£º
 
 ```html
 <script src="path/to/jquery.min.js"></script>
 <script src="path/to/amazeui.threelevel.min.js"></script>
 ```
 
-4. åˆå§‹åŒ– threeLevel:
+4. ³õÊ¼»¯ threeLevel:
 
 ```js
     $(function() {
@@ -39,7 +39,7 @@ Amaze UI threeLevel ä¾èµ– Amaze UI æ ·å¼ã€‚
 <br />  
 ***
 
-** å‚è€ƒ: **
+** ²Î¿¼: **
 
 > https://github.com/amazeui/tree  
 > !http://www.yunshipei.com/static/AMUI/component/index.html  
